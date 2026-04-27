@@ -1,6 +1,6 @@
 """
 Wavepool Hypothesis - Stable Minimal Toy Model (Part 3)
-Gentle parameters that run reliably on any computer.
+Updated parameters for visible patchy structures.
 """
 
 import numpy as np
@@ -19,7 +19,7 @@ delta = 0.01
 alpha = 0.008
 
 D = 0.05
-lambda0 = 0.25
+lambda0 = 0.45      # increased so patches can form
 beta = 0.12
 g = 2.5
 noise_amp = 0.001
