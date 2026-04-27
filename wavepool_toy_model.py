@@ -1,6 +1,6 @@
 """
-Wavepool Hypothesis - Stable Minimal Toy Model (Part 3)
-Updated parameters for visible patchy structures.
+Wavepool Hypothesis - Ultra-Stable Minimal Toy Model (Part 3)
+Gentle parameters for reliable running on any computer (including older ones).
 """
 
 import numpy as np
@@ -8,21 +8,21 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-# ========================= STABLE PARAMETERS =========================
-dt = 0.005
-T = 60.0
+# ========================= ULTRA-STABLE PARAMETERS =========================
+dt = 0.01
+T = 50.0
 N_steps = int(T / dt)
 Nx = 128
 
 Gamma = 1.0
 delta = 0.01
-alpha = 0.008
+alpha = 0.005
 
-D = 0.05
-lambda0 = 0.45      # increased so patches can form
-beta = 0.12
-g = 2.5
-noise_amp = 0.001
+D = 0.1
+lambda0 = 0.35
+beta = 0.10
+g = 3.0
+noise_amp = 0.0005
 
 # ========================= INITIAL CONDITIONS =========================
 EL = np.full(N_steps, 1.0)
@@ -51,7 +51,7 @@ for n in range(1, N_steps):
     dphi = D * laplacian + lambda_eff * phi - g * phi**3
     phi += dphi * dt + noise_amp * np.random.normal(0, 1, Nx) * np.sqrt(dt)
 
-    EH[n] += 0.005 * np.sum(phi**2) * dt
+    EH[n] += 0.003 * np.sum(phi**2) * dt
 
 t = np.arange(N_steps) * dt
 
