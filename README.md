@@ -1,5 +1,5 @@
 # The Wavepool Hypothesis Trilogy
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19834186.svg)](https://doi.org/10.5281/zenodo.19834186)
 **A pre-geometric vibrational cosmology with a minimal simulatable toy model**
 
 The entire observable universe emerges from three intangible fundamentals — **Mathematics** (pure relational structure), **Vibration** (oscillatory dynamics), and **Entropy** (intrinsic directional irreversibility).
