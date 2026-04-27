@@ -14,8 +14,23 @@ The entire observable universe emerges from three intangible fundamentals — **
 A fully runnable dynamical toy model (< 200 lines of Python) with explicit equations for the **biased vibrational pump**, energy cycling, cosmic expansion, and patchy early structure formation — all without fine-tuning.
 
 ### How to Run the Model
-See `Final version WP3 toy model.py` in this repository (or the next release).
 
+1. Make sure you have Python installed (Python 3.8 or newer).
+
+2. Install the required libraries (one-time only):
+
+   ```bash
+   pip install numpy matplotlib
+
+Download or copy wavepool_toy_model.py from this repository.
+Run it:Bashpython wavepool_toy_model.py
+
+You will see four plots showing:
+
+Energy cycling between EL and EH
+Cosmic expansion
+Patchy structures in the vibrational field ϕ(x)
+The EL/EH ratio approaching the predicted steady state
 ---
 
 **Zenodo Archive** (permanent DOIs)  
