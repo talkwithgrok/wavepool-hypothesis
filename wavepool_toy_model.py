@@ -1,4 +1,4 @@
-Python"""
+"""
 Wavepool Hypothesis - Stable Minimal Toy Model (Part 3)
 1D implementation of the biased vibrational pump + reaction-diffusion field
 Stable parameters for reliable simulation.
