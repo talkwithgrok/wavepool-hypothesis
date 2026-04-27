@@ -1,0 +1,8 @@
+numpy
+matplotlib
+
+Scroll down and in the commit box:
+Commit message: Add requirements.txt
+Make sure “Commit directly to the main branch” is selected
+
+Click “Commit new file”
